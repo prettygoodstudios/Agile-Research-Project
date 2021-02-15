@@ -1,0 +1,14 @@
+
+
+.what {
+    &__manifesto {
+        margin: 50px;
+        &__item {
+            span {
+                font-style: italic;
+                font-weight: 900;
+            }
+            margin: 20px 0px;
+        }
+    }
+}

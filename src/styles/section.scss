@@ -1,0 +1,16 @@
+
+
+.section {
+    padding: 20px;
+
+    &__header {
+        font-size: 1.5em;
+        color: $header-text;
+    }
+
+    &__content {
+        line-height: 1.8;
+        font-weight: 100;
+        color: $main-text;
+    }
+}

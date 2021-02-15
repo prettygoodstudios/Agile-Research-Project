@@ -1,0 +1,18 @@
+
+
+.framework {
+    &__well {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        &__card {
+            width: 40vw;
+            border-radius: 20px;
+            background-color: $off-white;
+            margin: 30px;
+            padding: 20px;
+        }
+    }
+}

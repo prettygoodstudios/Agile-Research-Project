@@ -1,12 +1,15 @@
 @import "variables";
+@import "nav";
+@import "hero";
 
 html, body {
     padding: 0;
     margin: 0;
-
+    font-family: Avenir;
     color: $main-text;
 }
 
 h1, h2, h3 {
-    color: $header-text; 
-}
+    color: $header-text;
+    font-weight: 200; 
+}   

@@ -2,8 +2,7 @@ import React from "react";
 
 const Frameworks = ({}) => {
     return <div className="framework section">
-        <h1 className="section__header">What are the main implementations/
-frameworks?</h1>
+        <h1 className="section__header">What are the main implementations/frameworks?</h1>
         <div className="framework__well">
             <div className="framework__well__card">
                 <h2>Scrum</h2>

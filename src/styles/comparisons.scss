@@ -1,0 +1,32 @@
+
+.comparisons {
+    &__table {
+        margin: auto;
+        border-collapse: collapse;
+        td {
+            width: 200px;
+        }
+        th {
+            width: 200px;
+            background-color: $primary-color;
+            color: $off-white;
+        }
+
+        tr {
+            height: 50px;
+        }
+
+        tr:nth-child(2n){
+            background-color: $off-white;
+        }
+
+        td {
+            text-align: center;
+            font-size: 3em;
+            color: $green;
+            border-width: 0px 4px 0px 0px;
+            border-color: $main-text;
+            border-style: solid;
+        }
+    }
+}

@@ -7,6 +7,10 @@
     &__background {
         min-width: 100vw;
         min-height: calc(100vh - 100px);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     @mixin center {

@@ -28,5 +28,17 @@
             border-color: $main-text;
             border-style: solid;
         }
+
+        @media only screen and (max-width: 500px) {
+            th {
+                max-width: 40px;
+            }
+
+            td {
+                max-width: 40px;
+            }
+
+            font-size: 0.5em;
+        }
     }
 }

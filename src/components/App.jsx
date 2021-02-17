@@ -5,6 +5,7 @@ import Buzz from "./Buzz.jsx";
 import What from "./What.jsx";
 import Frameworks from "./Frameworks.jsx";
 import Comparisons from "./Comparisons.jsx";
+import Keys from "./Keys.jsx";
 
 
 export default class App extends Component {
@@ -17,6 +18,7 @@ export default class App extends Component {
                 <What/>
                 <Frameworks/>
                 <Comparisons/>
+                <Keys/>
             </div>
         )
     }

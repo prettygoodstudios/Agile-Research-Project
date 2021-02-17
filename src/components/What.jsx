@@ -8,8 +8,8 @@ const What = ({}) => {
 project managment. It is most commonly used for
 software development projects, but it can be applied
 to any process that is a project. The Agile Manifesto is
-a document that outlines the core principles of Agile. 
-These principles are as follows.</p>
+a document that outlines the core values of Agile. 
+These core values are as follows.</p>
             <div className="what__manifesto">
                 <div className="what__manifesto__item">
                     <span>Individuals and interactions</span> over processes and tools

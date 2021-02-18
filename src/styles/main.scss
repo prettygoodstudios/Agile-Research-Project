@@ -50,3 +50,10 @@ h1, h2, h3 {
     font-weight: 200; 
     word-wrap: break-word;
 }   
+
+a {
+    color: $primary-color;
+    &:hover {
+        cursor: pointer;
+    }
+}

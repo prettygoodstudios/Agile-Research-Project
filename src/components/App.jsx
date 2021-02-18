@@ -7,7 +7,8 @@ import Frameworks from "./Frameworks.jsx";
 import Comparisons from "./Comparisons.jsx";
 import Keys from "./Keys.jsx";
 import Industy from "./Industry.jsx";
-import { loadCurrentRoute } from "../helpers/router.js";
+import Conclude from "./Conclude.jsx";
+import Learn from "./Learn.jsx";
 
 
 export default class App extends Component {
@@ -27,6 +28,8 @@ export default class App extends Component {
                 <Frameworks/>
                 <Comparisons/>
                 <Industy/>
+                <Learn/>
+                <Conclude/>
             </div>
         )
     }

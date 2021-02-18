@@ -26,7 +26,7 @@ const Comparisons = ({}) => {
                         <td>&#10003;</td>
                     </tr>
                     <tr>
-                        <th>Kanban Board</th>
+                        <th>Scrum or Kanban Board</th>
                         <td>&#10003;</td>
                         <td>&#10003;</td>
                         <td></td>
@@ -37,8 +37,8 @@ const Comparisons = ({}) => {
                         <th>Backlog</th>
                         <td>&#10003;</td>
                         <td>&#10003;</td>
-                        <td></td>
-                        <td></td>
+                        <td>&#10003;</td>
+                        <td>&#10003;</td>
                         <td>&#10003;</td>
                     </tr>
                     <tr>

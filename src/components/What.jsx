@@ -20,7 +20,7 @@ const What = ({}) => {
                 </div>
             </div>
             <p className="section__content">
-            Agile does not provide specific prescriptions and methodologies. This provides organizations a great deal of flexibility in how they implement Agile. This also results in several implementations/frameworks of Agile existing. An Agile implementation/framework is a specific methodology that adheres to the Agile Manifesto.
+            Agile does not provide specific guidelines and practices. Agile only provides general guidelines and a philosophy to project management. The result of this is that organizations have great flexibility in how they implement Agile. This also results in several implementations/frameworks of Agile existing. An Agile implementation/framework is a specific methodology that adheres to the Agile Manifesto.
             </p>
         </div>
     )

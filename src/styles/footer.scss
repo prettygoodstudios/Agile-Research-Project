@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: $primary-color;
+    color: $off-white;
+    flex-wrap: wrap;
+
+
+    &__left {
+        &__item {
+            margin: 20px 0px;
+        }
+        &__title {
+            font-size: 1.5em;
+        }
+    }
+
+    
+
+    a {
+        color: $off-white;
+        text-decoration: none;
+    }
+}

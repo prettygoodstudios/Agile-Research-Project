@@ -9,6 +9,7 @@ import Keys from "./Keys.jsx";
 import Industy from "./Industry.jsx";
 import Conclude from "./Conclude.jsx";
 import Learn from "./Learn.jsx";
+import Footer from "./Footer.jsx";
 
 
 export default class App extends Component {
@@ -30,6 +31,7 @@ export default class App extends Component {
                 <Industy/>
                 <Learn/>
                 <Conclude/>
+                <Footer/>
             </div>
         )
     }

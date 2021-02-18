@@ -10,7 +10,7 @@ const Frameworks = ({}) => {
             </div>
             <div className="framework__well__card">
                 <h2>Kanban</h2>
-                <p>It is an Agile implementation where software is broken into discrete and small units that are added to a queue called the product backlog. Items in the queue have different priorities. The highest priority items are picked off the queue first. Kanban differs from Scrum in the sense that there are no iterations and items are continuously added and removed off of the product backlog. In addition, Kanban uses a Kanban board to visualize the progress of tasks. The Kanban board shows which tasks are at which step in the process. This can help visualize bottlenecks.</p>
+                <p>It is an Agile implementation where software is broken into discrete and small units that are added to a queue called the product backlog. Items in the queue have different priorities. The highest priority items are picked off the queue first. Kanban differs from Scrum in the sense that there are no fixed-length iterations and items are continuously added and removed off of the product backlog. In addition, Kanban uses a Kanban board to visualize the progress of tasks. The Kanban board shows which tasks are at which step in the process. This can help visualize bottlenecks.</p>
             </div>
             <div className="framework__well__card">
                 <h2>Extreme Programming</h2>

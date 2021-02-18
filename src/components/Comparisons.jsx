@@ -18,7 +18,7 @@ const Comparisons = ({}) => {
                 </thead>
                 <tbody>
                     <tr>
-                        <th>Iterations</th>
+                        <th>Fixed-Length Iterations</th>
                         <td>&#10003;</td>
                         <td></td>
                         <td></td>

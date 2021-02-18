@@ -4,12 +4,12 @@ import { route, updateUrl } from "../helpers/router";
 const Nav = ({}) => {
 
     const [show, setShow] = useState(false);
-    const [mobile, setMobile] = useState(window.innerWidth <= 500);
+    const [mobile, setMobile] = useState(window.innerWidth <= 600);
 
     useEffect(() => {
 
         window.onresize = () => {
-            setMobile(window.innerWidth <= 500);
+            setMobile(window.innerWidth <= 600);
         }
 
         return () => {
@@ -19,7 +19,7 @@ const Nav = ({}) => {
 
     return (
         <div className="nav">
-            <h1>Agile</h1>
+            <h1>What is Agile?</h1>
             
             <button onClick={() => setShow(!show)} className="nav__toggle">
                 Menu

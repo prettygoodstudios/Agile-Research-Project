@@ -4,10 +4,11 @@ const Industy = ({}) => {
     return (
         <div className="section industry" id="industry">
             <h1 className="section__header">So what does the industry actually think?</h1>
-            <p>I conducted a survey of 11 software developers and software quality assurance analysts. Here is what they have to say.</p>
+            <p>I conducted a survey of 10 software developers and software quality assurance analysts. Here is what they have to say.</p>
             <h2>What Agile frameworks/implementations do they use?</h2>
+            <p className="industry__disclaimer">Some developers use more than one framework/implementation in their daily work. This is why the bars do not add up to 10.</p>
             <div className="industry__framework-graph">
-                <img src="https://staticgeofocus.s3-us-west-2.amazonaws.com/Screen+Shot+2021-02-16+at+9.20.30+PM.png"/>
+                <img src="https://staticgeofocus.s3-us-west-2.amazonaws.com/Screen+Shot+2021-02-18+at+10.40.03+AM.png"/>
             </div>
             <h2>How much knowledge of Agile is necessary to be an effective team member?</h2>
             <div className="industry__comments">
@@ -27,6 +28,10 @@ const Industy = ({}) => {
                     I think a basic understanding is good enough unless you are leading the SCRUM.
                     <div className="industry__comments__comment__carot"></div>
                 </div>
+            </div>
+            <h2>What Sprint durations do they use?</h2>
+            <div className="industry__framework-graph">
+                <img src="https://staticgeofocus.s3-us-west-2.amazonaws.com/Screen+Shot+2021-02-18+at+10.39.36+AM.png"/>
             </div>
             <h2>How does their opinions stack up with managers, the official values of Agile and the official guidelines of frameworks such as Scrum?</h2>
             <p>

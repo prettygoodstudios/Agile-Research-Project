@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { route, updateUrl } from "../helpers/router";
 
 const Nav = ({}) => {
 
@@ -24,9 +25,9 @@ const Nav = ({}) => {
                 Menu
             </button>
             <div className="nav__links" style={(mobile && !show) ? {maxHeight: 0, opacity: 0, marginTop: -20} : {}}>
-                <a href="#">About</a>
-                <a href="#">Frameworks</a>
-                <a href="#">Comparisons</a>
+                <a onClick={() => route("about")}>About</a>
+                <a onClick={() => route("frameworks")}>Frameworks</a>
+                <a onClick={() => route("industry")}>Industry</a>
             </div>
         </div>
     )

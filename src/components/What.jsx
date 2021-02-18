@@ -2,7 +2,7 @@ import React from "react";
 
 const What = ({}) => {
     return (
-        <div className="what section">
+        <div className="what section" id="about">
             <h1 className="section__header">So what is Agile?</h1>
             <p className="section__content">Agile is a management philosophy and methodology for project management. It is most commonly used for software development projects, but it can be applied to any process that is a project. The Agile Manifesto is a document that outlines the core values of Agile. These core values are as follows.</p>
             <div className="what__manifesto">

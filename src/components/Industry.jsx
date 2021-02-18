@@ -2,7 +2,7 @@ import React from "react";
 
 const Industy = ({}) => {
     return (
-        <div className="section industry">
+        <div className="section industry" id="industry">
             <h1 className="section__header">So what does the industry actually think?</h1>
             <p>I conducted a survey of 11 software developers and software quality assurance analysts. Here is what they have to say.</p>
             <h2>What Agile frameworks/implementations do they use?</h2>

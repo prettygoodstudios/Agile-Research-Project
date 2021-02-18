@@ -7,9 +7,15 @@ import Frameworks from "./Frameworks.jsx";
 import Comparisons from "./Comparisons.jsx";
 import Keys from "./Keys.jsx";
 import Industy from "./Industry.jsx";
+import { loadCurrentRoute } from "../helpers/router.js";
 
 
 export default class App extends Component {
+
+    componentDidMount() {
+        //loadCurrentRoute();
+    }
+
     render() {
         return (
             <div>

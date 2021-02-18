@@ -22,7 +22,7 @@ const Frameworks = ({}) => {
             </div>
             <div className="framework__well__card">
                 <h2>Scrum at Scale</h2>
-                <p>Scrum at Scale is based off of the Scrum framework, but is technically not part of the Scrum framework, since the Scrum framework is immutable. Scrum at Scale is designed for large enterprise organization. In Scrum at Scale there are Scrum teams that are part of larger units calle Scrums of Scrums. Scrums of Scrums have a Scrum of Scrum master and a chief product owner. These individuals coridnate scaled daily scrums and sprint retrospectives with each team's scrum master and product owner. They ensure that each team is supporting the organizations visions and goal and promote synergies between teams.</p>
+                <p>Scrum at Scale is based off of the Scrum framework, but is technically not part of the Scrum framework, since the Scrum framework is immutable. Scrum at Scale is designed for large enterprise organization. In Scrum at Scale there are Scrum teams that are part of larger units calle Scrums of Scrums. Scrums of Scrums have a Scrum of Scrum master and a chief product owner. These individuals coridnate scaled daily Scrums and sprint retrospectives with each team's Scrum master and product owner. They ensure that each team is supporting the organizations visions and goal and promote synergies between teams.</p>
             </div>
         </div>
     </div>

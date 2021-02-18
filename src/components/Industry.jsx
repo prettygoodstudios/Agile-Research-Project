@@ -12,7 +12,7 @@ const Industy = ({}) => {
             <h2>How much knowledge of Agile is necessary to be an effective team member?</h2>
             <div className="industry__comments">
                 <div className="industry__comments__comment">
-                    In my opinion, not much. You can get work done without knowing agile. If you know and work within the ideas of agile and the SDLC you can be more efficient in all the processes.
+                    In my opinion, not much. You can get work done without knowing Agile. If you know and work within the ideas of Agile and the SDLC you can be more efficient in all the processes.
                     <div className="industry__comments__comment__carot"></div>
                 </div>
                 <div className="industry__comments__comment">
@@ -20,7 +20,7 @@ const Industy = ({}) => {
                     <div className="industry__comments__comment__carot"></div>
                 </div>
                 <div className="industry__comments__comment">
-                    Somewhat knowledgeable. One can go through the motions of the scrum ceremonies but understanding their purpose is very important to get the most value out of them.
+                    Somewhat knowledgeable. One can go through the motions of the Scrum ceremonies but understanding their purpose is very important to get the most value out of them.
                     <div className="industry__comments__comment__carot"></div>
                 </div>
                 <div className="industry__comments__comment">

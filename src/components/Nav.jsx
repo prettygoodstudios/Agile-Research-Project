@@ -23,13 +23,11 @@ const Nav = ({}) => {
             <button onClick={() => setShow(!show)} className="nav__toggle">
                 Menu
             </button>
-            {  (show || !mobile) &&
-                <div className="nav__links">
-                    <a href="#">About</a>
-                    <a href="#">Frameworks</a>
-                    <a href="#">Comparisons</a>
-                </div>
-            }
+            <div className="nav__links" style={(mobile && !show) ? {maxHeight: 0, opacity: 0, marginTop: -20} : {}}>
+                <a href="#">About</a>
+                <a href="#">Frameworks</a>
+                <a href="#">Comparisons</a>
+            </div>
         </div>
     )
 }

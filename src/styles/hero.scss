@@ -1,12 +1,12 @@
 
 
 .hero {   
-    height: calc(100vh - 100px);
+    height: 100vh;
     overflow: hidden;
     position: relative;
     &__background {
         min-width: 100vw;
-        min-height: calc(100vh - 100px);
+        min-height: 100vh;
         position: absolute;
         left: 50%;
         top: 50%;
@@ -55,7 +55,7 @@
     &__scroll {
         position: absolute;
         @include center;
-        bottom: 20px;
+        bottom: 100px;
         background-color: $primary-color;
         color: $off-white;
         padding: 10px;

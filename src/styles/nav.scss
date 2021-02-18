@@ -9,6 +9,11 @@
     flex-direction: row;
     padding: 0px 20px;
     flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: calc(100vw - 40px);
 
     @media only screen and (max-width: 500px) {
         height: auto;
@@ -21,6 +26,11 @@
     &__links {
         display: flex;
         flex-direction: row;
+        max-height: 300px;
+        opacity: 1;
+        transition: max-height 2s, opacity 1s, margin-top 2s; 
+
+        
 
         a {
             text-decoration: none;

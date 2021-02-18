@@ -29,7 +29,15 @@ module.exports = {
         { 
             test: /\.scss$/,
             loader: 'sass-loader' 
-        }
+        },
+        { 
+          test: /\.otf$/,
+          loader: 'file-loader',
+          options: {
+            name: "[name].[ext]",
+            outputPath: "fonts/"
+          }
+      }
     ]
   }
 };

@@ -58,3 +58,40 @@ a {
         cursor: pointer;
     }
 }
+
+.tooltip {
+    color: $primary-color;
+    position: relative;
+    display: inline-block;
+
+    &:hover {
+        cursor: pointer;
+        .tooltip__popup {
+            opacity: 1;
+        }
+    }
+
+    &__popup {
+        position: absolute;
+        top: 40px;
+        color: $main-text;
+        background-color: $off-white;
+        border-radius: 20px;
+        padding: 20px;
+        z-index: 999;
+        opacity: 0;
+        transition: 1s opacity;
+        
+
+        &__carot {
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            transform: rotate(45deg);
+            background-color: $off-white;
+            z-index: -1;
+        }
+    }
+}

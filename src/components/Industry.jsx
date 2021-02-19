@@ -8,7 +8,7 @@ const Industy = ({}) => {
             <h2>What Agile frameworks/implementations do they use?</h2>
             <p className="industry__disclaimer">Some developers use more than one framework/implementation in their daily work. This is why the bars do not add up to 10.</p>
             <div className="industry__framework-graph">
-                <img src="https://staticgeofocus.s3-us-west-2.amazonaws.com/Screen+Shot+2021-02-18+at+10.40.03+AM.png"/>
+                <img src="https://staticgeofocus.s3-us-west-2.amazonaws.com/Screen+Shot+2021-02-18+at+8.41.04+PM.png"/>
             </div>
             <h2>How much knowledge of Agile is necessary to be an effective team member?</h2>
             <div className="industry__comments">
@@ -31,7 +31,7 @@ const Industy = ({}) => {
             </div>
             <h2>What Sprint durations do they use?</h2>
             <div className="industry__framework-graph">
-                <img src="https://staticgeofocus.s3-us-west-2.amazonaws.com/Screen+Shot+2021-02-18+at+10.39.36+AM.png"/>
+                <img src="https://staticgeofocus.s3-us-west-2.amazonaws.com/Screen+Shot+2021-02-18+at+8.42.47+PM.png"/>
             </div>
             <h2>How do their views differ from those of managers, academics the official values of Agile and the official guidelines of frameworks such as Scrum?</h2>
             <p>

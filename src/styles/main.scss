@@ -68,10 +68,12 @@ a {
         cursor: pointer;
         .tooltip__popup {
             opacity: 1;
+            display: block;
         }
     }
 
     &__popup {
+        display: none;
         position: absolute;
         top: 40px;
         color: $main-text;
